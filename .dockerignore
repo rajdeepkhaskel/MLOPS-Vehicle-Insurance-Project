@@ -5,6 +5,7 @@ __pycache__/
 .env
 .gitignore
 logs/
+artifact/
 template.py
 demo.py
 README.md
