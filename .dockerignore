@@ -4,7 +4,7 @@ vehicle/
 __pycache__/
 .env
 .gitignore
-logs
+logs/
 template.py
 demo.py
 README.md
