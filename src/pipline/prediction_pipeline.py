@@ -42,7 +42,7 @@ class VehicleData:
 
     def get_vehicle_input_data_frame(self)-> DataFrame:
         """
-        This function returns a DataFrame from USvisaData class input
+        This function returns a DataFrame from VehicleData class input
         """
         try:
             
@@ -57,7 +57,7 @@ class VehicleData:
         """
         This function returns a dictionary from VehicleData class input
         """
-        logging.info("Entered get_usvisa_data_as_dict method as VehicleData class")
+        logging.info("Entered get_vehicle_data_as_dict method as VehicleData class")
 
         try:
             input_data = {
