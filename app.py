@@ -10,8 +10,8 @@ from typing import Optional
 
 # Importing constants and pipeline modules from the project
 from src.constants import APP_HOST, APP_PORT
-from src.pipline.prediction_pipeline import VehicleData, VehicleDataClassifier
-from src.pipline.training_pipeline import TrainPipeline
+from src.pipeline.prediction_pipeline import VehicleData, VehicleDataClassifier
+from src.pipeline.training_pipeline import TrainPipeline
 
 # Initialize FastAPI application
 app = FastAPI()
